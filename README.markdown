@@ -3,10 +3,6 @@
 This is a front-end project built as part of the Software Engineering training program at Per Scholas.  
 The project demonstrates layout and styling skills using **HTML** and **CSS**, based on a personal portfolio website template.
 
-## 🌐 Live Demo
-
-👉 [View on GitHub Pages](https://sashauspex.github.io/Alex-s-SBA-for-per-scholas/)
-
 ## 📁 Project Structure
 
 - `index.html` – Main HTML file
