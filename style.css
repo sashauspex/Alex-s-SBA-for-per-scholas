@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    border: 1px white solid;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 30px;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+  }
+
+h1 {
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    transition-property: width, height;
+    transition-duration: 2s;
+}
+
+img:hover {
+    width: 75%;
+    height: 75%;
+}
+
+a:hover {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 1%;
+    color: black;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.yes, textarea, select {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+ 
+table, th, td {
+    border: 1px white solid;
+    color: white;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin-bottom: 5%;
+}
